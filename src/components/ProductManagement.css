@@ -1,0 +1,89 @@
+/* Container for the Product Management component */
+.container {
+    width: 80%; /* Set the width of the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add some padding inside the container */
+    border: 1px solid #ccc; /* Optional border around the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: #fff; /* Background color */
+}
+
+/* Style for the input fields and textarea */
+.form-input, textarea {
+    width: 100%; /* Make all input fields and textarea full width */
+    padding: 10px; /* Add padding */
+    margin: 10px 0; /* Space out the fields */
+    border: 1px solid #ccc; /* Border for the fields */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in total width/height */
+    font-size: 16px; /* Font size for inputs and textarea */
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+/* Style for the submit button */
+button {
+    padding: 10px 15px; /* Padding for the buttons */
+    margin-top: 10px; /* Space above buttons */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #007bff; /* Primary color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Table should take full width */
+    border-collapse: collapse; /* Merge table borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+/* Style for table headers */
+th {
+    background-color: #f2f2f2; /* Header background color */
+    padding: 10px; /* Padding for headers */
+    text-align: left; /* Align text to the left */
+    border-bottom: 2px solid #ddd; /* Bottom border for headers */
+}
+
+/* Style for table cells */
+td {
+    padding: 10px; /* Padding for cells */
+    border-bottom: 1px solid #ddd; /* Bottom border for cells */
+}
+
+/* Style the buttons in the actions column of each row */
+td button {
+    margin-right: 5px; /* Space between buttons */
+    background-color: #28a745; /* Green color for edit */
+}
+
+/* Edit button style */
+td button:nth-child(2) {
+    background-color: #dc3545; /* Red color for delete */
+}
+
+/* Change delete button color on hover */
+td button:nth-child(2):hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
+
+/* Change edit button color on hover */
+td button:nth-child(1):hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+/* Headings inside the Product Management */
+h2, h3 {
+    margin: 20px 0; /* Space above and below headings */
+    font-weight: bold; /* Bold text for headings */
+    color: #333; /* Dark color for easy readability */
+}
